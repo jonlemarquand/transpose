@@ -5,17 +5,17 @@ const Piano = ({active}) => {
 
 	let keysOptions = [
 		{	c: 'c',		eb: 'a', 	f: 'g',	bb: 'd' },
-		{	c: 'db',	eb: 'ab', 	f: 'g# ab',	bb: 'b' },
-		{	c: 'd',		eb: 'bb', 	f: 'a',	bb: 'c' },
-		{	c: 'eb',	eb: 'b', 	f: 'a# bb ',	bb: 'db' },
-		{	c: 'e',		eb: 'c', 	f: 'b',	bb: 'd' },
-		{	c: 'f',		eb: 'db', 	f: 'c',	bb: 'eb' },
-		{	c: 'gb',	eb: 'd', 	f: 'c# db',	bb: 'e' },
-		{	c: 'g',		eb: 'eb', 	f: 'd',	bb: 'f' },
-		{	c: 'ab',	eb: 'e', 	f: 'd# eb',	bb: 'gb' },
-		{	c: 'a',		eb: 'f', 	f: 'e',	bb: 'g' },
-		{	c: 'bb',	eb: 'gb', 	f: 'f',	bb: 'ab' },
-		{	c: 'b',		eb: 'g', 	f: 'f# gb',	bb: 'a' },
+		{	c: 'db',	eb: 'bb', 	f: 'g# ab',	bb: 'eb' },
+		{	c: 'd',		eb: 'b', 	f: 'a',	bb: 'e' },
+		{	c: 'eb',	eb: 'c', 	f: 'a# bb ',	bb: 'f' },
+		{	c: 'e',		eb: 'db', 	f: 'b',	bb: 'gb' },
+		{	c: 'f',		eb: 'd', 	f: 'c',	bb: 'g' },
+		{	c: 'gb',	eb: 'eb', 	f: 'c# db',	bb: 'ab' },
+		{	c: 'g',		eb: 'e', 	f: 'd',	bb: 'a' },
+		{	c: 'ab',	eb: 'f', 	f: 'd# eb',	bb: 'bb' },
+		{	c: 'a',		eb: 'gb', 	f: 'e',	bb: 'b' },
+		{	c: 'bb',	eb: 'g', 	f: 'f',	bb: 'c' },
+		{	c: 'b',		eb: 'ab', 	f: 'f# gb',	bb: 'db' },
 	]
 	let black = [1, 3, 6, 8, 10];
 
