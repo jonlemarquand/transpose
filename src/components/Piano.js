@@ -3,7 +3,6 @@ import './Piano.scss';
 
 const Piano = ({active}) => {
 
-	let keysArray = [1,2,3,4,5,6,7,8,9,10,11,12];
 	let keysOptions = [
 		{	c: 'c',		eb: 'a', 	f: 'g',	bb: 'd' },
 		{	c: 'db',	eb: 'ab', 	f: 'g# ab',	bb: 'b' },
